@@ -19,9 +19,12 @@ This repository contains the Python implementation of [Hidden among subgroups: D
 
 This repository presents the methods from the paper "Hidden among subgroups: Detecting critical treatment effect bias in observational studies."
 
-Randomized trials are the gold standard for informed decision-making in medicine, yet they may not always capture the full scope of the population in clinical practice. Observational studies are usually more representative of the patient population but are susceptible to variuos biases such as those arising from unmeasured confounding.
+**Motivation:** Randomized trials are the gold standard for informed decision-making in medicine, yet they may not always capture the full scope of the population in clinical practice. Observational studies are usually more representative of the patient population but are susceptible to various biases, such as those arising from unmeasured confounding.
 
-Our tools are designed to enhance the reliability of observational studies. We provide a statistical test that allows researchers to validate if the treatment effects observed in specific patient subgroups fall within an acceptable tolerance when **benchmarked** against randomized trials. Additionally, we propose a method to estimate a lower bound for potential biases within these subgroup effects. 
+*Benchmarking* observational studies has become a popular strategy to assess the reliability of observational data when a randomized trial is available. The main idea behind this approach is to first emulate the procedures adopted in the randomized trial within the observational study, for example, using the [Target Trial Emulation framework](https://jamanetwork.com/journals/jama/fullarticle/2799678). Then, the treatment effect estimates from the emulated observational study are compared with those from the randomized trial. If the estimates are similar, we may be willing to trust the observational study results for patient populations where the randomized data is insufficient.
+
+
+**Contribution:** To support the benchmarking framework, we propose a statistical procedure that compares treatment effect estimates between randomized and observational studies. In particular, our novel statistical test satisfies two properties identified as essential for effective benchmarking: granularity and tolerance. Granularity allows the detection of bias at a subgroup or individual level, thereby improving the power of benchmarking. Tolerance permits the acceptance of studies with negligible bias that does not impact decision-making, thereby reducing false rejections. Further, we use our test to estimate an asymptotically valid lower bound on the maximum bias strength for any individual.
 
 ## Getting Started
 
