@@ -56,7 +56,7 @@ There are two ways to install the package:
 1. **Local Installation:**
    Start by cloning the repository from GitHub. Then, upgrade `pip` to its latest version and use the local setup files to install the package. This method is ideal for development or when you have the source code.
    ```bash
-   git clone https://github.com/pdebartol/kernelized-test-code.git
+   git clone https://github.com/jaabmar/kernel-test-bias.git
    cd kernelized-test-code
    pip install --upgrade pip
    pip install -e .
@@ -64,7 +64,7 @@ There are two ways to install the package:
 2. **Direct Installation from GitHub (Recommended):**
    You can also install the package directly from GitHub. This method is straightforward and ensures you have the latest version.
    ```bash
-   pip install git+https://github.com/pdebartol/kernelized-test-code.git
+   pip install git+https://github.com/jaabmar/kernel-test-bias.git
    ```
 
 ## Contents
