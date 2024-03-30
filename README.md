@@ -72,7 +72,7 @@ There are two ways to install the package:
 
 ## Contents
 
-The `src` folder contains the core code of the package, organized as follows::
+The `src` folder contains the core code of the package, organized as follows:
 
 - `datasets`: This directory includes modules for loading and preprocessing datasets.
   - `bias_models.py`: Defines the bias models used in the paper.
