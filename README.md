@@ -5,7 +5,7 @@
 [![JAX 0.4.23](https://img.shields.io/badge/jax-0.4.23-green.svg)](https://jax.readthedocs.io/en/latest/changelog.html)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-This repository contains the Python implementation of [Hidden among subgroups: Detecting critical treatment effect bias in observational studies](https://arxiv.org/abs/2312.03871).
+This repository contains the Python implementation of [Detecting critical treatment effect bias in small subgroups](https://arxiv.org/abs/2312.03871).
 
 * [Overview](#overview)
 * [Getting Started](#getting-started)
