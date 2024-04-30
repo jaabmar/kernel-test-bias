@@ -1,11 +1,11 @@
-# Detecting critical treatment effect bias in observational studies
+# Detecting critical treatment effect bias in small subgroups
 
-[![arXiv](https://img.shields.io/badge/stat.ML-arXiv%3A2312.03871-B31B1B.svg)](https://arxiv.org/abs/2312.03871)
+[![arXiv](https://img.shields.io/badge/stat.ML-arXiv%3A2404.18905-B31B1B.svg)](https://arxiv.org/abs/2404.18905)
 [![Python 3.9.18](https://img.shields.io/badge/python-3.9.18-blue.svg)](https://python.org/downloads/release/python-3918/)
 [![JAX 0.4.23](https://img.shields.io/badge/jax-0.4.23-green.svg)](https://jax.readthedocs.io/en/latest/changelog.html)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-This repository contains the Python implementation of [Detecting critical treatment effect bias in small subgroups](https://arxiv.org/abs/2312.03871).
+This repository contains the Python implementation of [Detecting critical treatment effect bias in small subgroups](https://arxiv.org/abs/2404.18905).
 
 * [Overview](#overview)
 * [Getting Started](#getting-started)
@@ -17,7 +17,7 @@ This repository contains the Python implementation of [Detecting critical treatm
 
 ## Overview
 
-This repository presents the methods from the paper "Hidden among subgroups: Detecting critical treatment effect bias in observational studies."
+This repository presents the methods from the paper "Detecting critical treatment effect bias in small subgroups."
 
 **Motivation:** Randomized trials are the gold standard for informed decision-making in medicine, yet they may not always capture the full scope of the population in clinical practice. Observational studies are usually more representative of the patient population but are susceptible to various biases, such as those arising from hidden confounding.
 
@@ -132,12 +132,12 @@ For any inquiries, please reach out:
 
 If you find this code useful, please consider citing our paper:
  ```
-@article{debartolomeis2024hidden,
-  title={Hidden among subgroups: Detecting critical treatment effect bias in observational studies},
+@article{debartolomeis2024detecting,
+  title={Detecting critical treatment effect bias in small subgroups},
   author={Piersilvio De Bartolomeis and Javier Abad and Konstantin Donhauser and Fanny Yang},
   year={2024},
-  journal={arXiv preprint arXiv:2312.03871},
-  eprint={2312.03871},
+  journal={arXiv preprint arXiv:2404.18905},
+  eprint={2404.18905},
   archivePrefix={arXiv},
   primaryClass={stat.ML}
 }
