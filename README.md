@@ -132,13 +132,10 @@ For any inquiries, please reach out:
 
 If you find this code useful, please consider citing our paper:
  ```
-@article{debartolomeis2024detecting,
+@inproceedings{debartolomeis2024detecting,
   title={Detecting critical treatment effect bias in small subgroups},
-  author={Piersilvio De Bartolomeis and Javier Abad and Konstantin Donhauser and Fanny Yang},
-  year={2024},
-  journal={arXiv preprint arXiv:2404.18905},
-  eprint={2404.18905},
-  archivePrefix={arXiv},
-  primaryClass={stat.ML}
+  author={De Bartolomeis, Piersilvio and Abad, Javier and Donhauser, Konstantin and Yang, Fanny},
+  booktitle={The 40th Conference on Uncertainty in Artificial Intelligence},
+  year={2024}
 }
 ```
