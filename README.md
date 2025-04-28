@@ -5,7 +5,7 @@
 [![JAX 0.4.23](https://img.shields.io/badge/jax-0.4.23-green.svg)](https://jax.readthedocs.io/en/latest/changelog.html)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-This repository contains the Python implementation of [Detecting critical treatment effect bias in small subgroups](https://arxiv.org/abs/2404.18905).
+This repository contains the Python implementation of the **UAI 2024 paper** [Detecting critical treatment effect bias in small subgroups](https://arxiv.org/abs/2404.18905).
 
 * [Overview](#overview)
 * [Getting Started](#getting-started)
